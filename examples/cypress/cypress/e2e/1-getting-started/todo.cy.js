@@ -29,7 +29,7 @@ describe("example to-do app", () => {
       .last()
       .should("have.text", newItem);
 
-    //👇 Here, an other screenshot will be taken
+    //👇 Here, an other screenshot will be taken we hope
     cy.argosScreenshot("with an added item");
   });
 });
